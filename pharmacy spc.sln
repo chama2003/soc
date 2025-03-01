@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pharmacy spc", "pharmacy spc\pharmacy spc.csproj", "{A43822C8-7870-413B-B7FD-47CDBF6DE1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormspc", "WindowsFormspc\WindowsFormspc.csproj", "{7BBB03A6-942D-417A-90ED-DF335A65D9D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A43822C8-7870-413B-B7FD-47CDBF6DE1D5} = {A43822C8-7870-413B-B7FD-47CDBF6DE1D5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A43822C8-7870-413B-B7FD-47CDBF6DE1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43822C8-7870-413B-B7FD-47CDBF6DE1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43822C8-7870-413B-B7FD-47CDBF6DE1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43822C8-7870-413B-B7FD-47CDBF6DE1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBB03A6-942D-417A-90ED-DF335A65D9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBB03A6-942D-417A-90ED-DF335A65D9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBB03A6-942D-417A-90ED-DF335A65D9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBB03A6-942D-417A-90ED-DF335A65D9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {251A26E9-8262-453D-82DE-966C143AAD23}
+	EndGlobalSection
+EndGlobal

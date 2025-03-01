@@ -1,0 +1,2 @@
+C:\Users\chama\source\repos\pharmacy spc\webform1\obj\Debug\webform1.csproj.AssemblyReference.cache
+C:\Users\chama\source\repos\pharmacy spc\webform1\obj\Debug\webform1.csproj.CoreCompileInputs.cache
