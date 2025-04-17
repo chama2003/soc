@@ -1,9 +1,27 @@
-Pharmacy SPC System
+💊 Pharmacy SPC System
+A comprehensive C# .NET Web API solution developed for the State Pharmaceutical Corporation (SPC). This system is designed to manage the full spectrum of pharmaceutical operations—from supplier registration and stock management to drug orders and third-party API integration.
 
-This project is a comprehensive solution for managing the operations of a pharmaceutical company, specifically for the State Pharmaceutical Corporation (SPC). The system integrates various business processes such as drug manufacturing, importing, and distribution. It provides features such as supplier registration, stock updates from manufacturing plants and warehouses, drug search and order placement, and more. The system aims to streamline the workflow, enhance operational efficiency, and improve service delivery.
+📌 Project Overview
+The Pharmacy SPC System streamlines the internal and external processes of a pharmaceutical organization. It centralizes tasks related to manufacturing, importing, warehousing, and distribution to improve workflow efficiency and enhance service delivery to pharmacies and healthcare partners.
 
-Key Features:
-Supplier Registration: Allows suppliers to register through the main branches and website.
-Stock Management: Real-time stock updates from manufacturing plants and warehouses.
-Drug Search and Orders: Enables pharmacies to search for drugs and place orders, integrated with pharmacy management systems.
-API Development: Exposes system functionalities through APIs for easy integration with other platforms.
+🚀 Key Features
+🔗 Supplier Registration
+Suppliers can register via main branches or through the SPC official website.
+
+Registration requests are validated and stored in a secure database for further processing.
+
+📦 Stock Management
+Real-time stock updates from both manufacturing plants and warehouses.
+
+Helps maintain optimal inventory levels and reduces the risk of overstock or stockouts.
+
+🔍 Drug Search & Order Placement
+Pharmacies can search for available drugs via the system.
+
+Allows authorized pharmacies to place orders, which are integrated with their internal pharmacy management systems.
+
+
+🛠️ Tech Stack
+Backend: C# (.NET 6/7 Web API)
+
+Database: Microsoft SQL Server
